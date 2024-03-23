@@ -1,0 +1,24 @@
+.top-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: ;
+
+  background: linear-gradient(to right, #0a8aad, #1ba653);
+}
+
+.bannerContent {
+  color: white;
+  font-size: 30%;
+}
+
+button {
+  display: flex;
+  justify-content: space-between;
+  color: #1ba653;
+  border-radius: 40% !important;
+  background-color: white;
+}
+
+img {
+  max-width: 20px;
+}
