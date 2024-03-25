@@ -13,6 +13,12 @@
   --font-family: 'Tauri', sans-serif;
 }
 
+.bebas-neue-regular {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   height: 100vh;
 }
@@ -76,15 +82,14 @@ button img {
   padding-left: 1.5%;
 }
 
-li,
-h1,
-h6 {
+li {
   font-weight: bold;
-  font-family: var(--font-family);
 }
 
 h1 {
+  font-family: 'Bebas Neue', sans-serif;
   font-size: 55px !important;
+  color: var(--primary-color) !important;
 }
 
 h6 {
@@ -137,7 +142,6 @@ footer {
   font-weight: bold;
   align-items: center;
   padding: 50px;
-  font-family: var(--font-family);
 }
 
 i {
@@ -189,6 +193,17 @@ i:hover {
   height: 900px;
 }
 
+.primary-button {
+  background-color: var(--primary-color) !important;
+  color: white;
+}
+
+.secondary-button {
+  background-color: var(--secondary-color) !important;
+
+  color: white;
+}
+
 @media only screen and (max-width: 992px) {
   .top-banner {
     display: none !important;
@@ -197,14 +212,16 @@ i:hover {
   #carouselExample {
     display: none;
   }
-  p {
-    padding-bottom: 20px;
+
+  #logo {
+    width: 200px;
   }
+
   .heroText {
     padding-top: 50px;
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 70px;
+    padding-bottom: 50px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -212,13 +229,21 @@ i:hover {
   .hero {
     display: flex;
     justify-content: center;
-    height: 500px !important;
+    height: 400px !important;
+  }
+
+  h1 {
+    font-size: 40px !important;
+  }
+
+  h6 {
+    font-size: 15px !important;
   }
 
   footer {
     display: block;
     position: relative;
-    margin-top: 100px; /* Adjust as needed */
+    margin-top: 20px; /* Adjust as needed */
   }
 
   #footerList {
