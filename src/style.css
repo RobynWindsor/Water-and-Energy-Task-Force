@@ -13,12 +13,6 @@
   --font-family: 'Tauri', sans-serif;
 }
 
-.tauri-regular {
-  font-family: 'Tauri', sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 body {
   height: 100vh;
 }
@@ -77,20 +71,11 @@ button img {
   padding-left: 1.5%;
 }
 
-li {
-  font-weight: bold;
-  padding: 10px;
-  font-family: var(--font-family);
-}
-
-h1 {
-  font-weight: 400;
-  font-family: var(--font-family);
-}
+li,
+h1,
 h6 {
   font-weight: bold;
-  padding-top: 5px;
-  padding-bottom: 20px;
+  font-family: var(--font-family);
 }
 
 nav {
@@ -106,9 +91,7 @@ nav {
     rgba(255, 255, 255, 0) 100%
   );
   opacity: 1;
-
   position: absolute;
-  opacity: ;
 }
 
 .heroText {

@@ -4,6 +4,10 @@
 
 The Water and Energy Task Force Website is a responsive web application designed to showcase the services and mission of a pioneering company dedicated to revolutionizing sustainability practices in the industrial sector. The website provides information about the company's mission, services, news, and contact details.
 
+### Deployment Link
+
+https://superlative-marigold-439faa.netlify.app/
+
 ### Features
 
 - Responsive design: The website is optimized for various screen sizes, including desktops, tablets, and mobile devices.
