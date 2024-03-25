@@ -49,6 +49,11 @@ body {
   margin-bottom: 5px;
 }
 
+#contactButton:hover {
+  background-color: var(--footer-background);
+  transition: background-color 0.2s ease-in, color 0.2s ease-in;
+}
+
 .buttonText {
   text-align: center;
   align-items: center;
@@ -76,6 +81,15 @@ h1,
 h6 {
   font-weight: bold;
   font-family: var(--font-family);
+}
+
+h1 {
+  font-size: 55px !important;
+}
+
+h6 {
+  font-size: 20px !important;
+  padding-bottom: 15px;
 }
 
 nav {
@@ -111,6 +125,7 @@ button,
 button:hover {
   background-color: var(--primary-color);
   color: white;
+  transition: background-color 0.2s ease-in, color 0.2s ease-in;
 }
 
 footer {
@@ -151,6 +166,7 @@ i {
 
 i:hover {
   background-color: var(--secondary-color);
+  transition: background-color 0.2s ease-in, color 0.2s ease-in;
 }
 
 .carouselBtn:hover {
