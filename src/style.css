@@ -180,9 +180,9 @@ i:hover {
 }
 
 #carouselExample {
-  height: 900px; /* Set a fixed height for the carousel */
-  width: 100%; /* Set a fixed width for the carousel */
-  margin: 0 auto; /* Center the carousel horizontally */
+  height: 900px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 #carouselExample .carousel-inner img {
@@ -257,7 +257,7 @@ i:hover {
   }
 }
 
-@media only screen and (max-width: 2090px) {
+@media only screen and (max-width: 1800px) {
   #carouselExample {
     display: none;
   }
