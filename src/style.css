@@ -1,9 +1,7 @@
 .top-banner {
-  display: flex;
-  justify-content: space-between;
-  align-items: ;
-
   background: linear-gradient(to right, #0a8aad, #1ba653);
+  color: white;
+  padding: 10px 20px;
 }
 
 .bannerContent {
@@ -12,13 +10,16 @@
 }
 
 button {
-  display: flex;
-  justify-content: space-between;
   color: #1ba653;
   border-radius: 40% !important;
   background-color: white;
 }
 
+button img {
+  max-width: 20px;
+}
+
+.bannerIcon,
 img {
   max-width: 20px;
 }
