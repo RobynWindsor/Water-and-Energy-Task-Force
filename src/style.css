@@ -13,6 +13,12 @@
   --font-family: 'Tauri', sans-serif;
 }
 
+.bebas-neue-regular {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   height: 100vh;
 }
@@ -84,6 +90,7 @@ h6 {
 }
 
 h1 {
+  font-family: 'Bebas Neue', sans-serif;
   font-size: 55px !important;
   color: var(--primary-color) !important;
 }
@@ -138,7 +145,6 @@ footer {
   font-weight: bold;
   align-items: center;
   padding: 50px;
-  font-family: var(--font-family);
 }
 
 i {
