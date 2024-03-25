@@ -83,6 +83,15 @@ h6 {
   font-family: var(--font-family);
 }
 
+h1 {
+  font-size: 55px !important;
+}
+
+h6 {
+  font-size: 20px !important;
+  padding-bottom: 15px;
+}
+
 nav {
   background: linear-gradient(to right, white, #f2f2f2) !important;
 }
