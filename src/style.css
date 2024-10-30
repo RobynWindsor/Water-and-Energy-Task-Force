@@ -113,15 +113,6 @@ nav {
   position: absolute;
 }
 
-.hero {
-}
-
-.heroText {
-  padding-top: 30vh; /* Adjust as needed */
-  padding-bottom: 30vh; /* Adjust as needed */
-  margin-left: 45px;
-}
-
 button,
 .findBtn {
   padding: 12px;
@@ -138,6 +129,7 @@ button:hover {
 
 footer {
   background-color: var(--footer-background);
+  margin-top: 0;
 }
 
 #footerList {
@@ -185,15 +177,27 @@ i:hover {
   padding-right: 36px;
 }
 
+.hero {
+  height: 60vh;
+  margin-top: 0;
+}
+
+.heroText {
+  padding-top: 20vh; /* Adjust based on design */
+  padding-bottom: 20vh; /* Adjust based on design */
+  margin-left: 45px; /* Keep as needed */
+}
+
 #carouselExample {
-  height: 900px;
+  height: 60vh;
   width: 100%;
   margin: 0 auto;
 }
 
 #carouselExample .carousel-inner img {
   width: 100%;
-  height: 900px;
+  height: 100%; /* Ensures the image takes full height */
+  object-fit: cover; /* Maintains aspect ratio */
 }
 
 .primary-button {
