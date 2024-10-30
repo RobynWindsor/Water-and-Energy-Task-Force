@@ -113,10 +113,13 @@ nav {
   position: absolute;
 }
 
+.hero {
+}
+
 .heroText {
-  padding-top: 310px;
+  padding-top: 30vh; /* Adjust as needed */
+  padding-bottom: 30vh; /* Adjust as needed */
   margin-left: 45px;
-  padding-bottom: 310px;
 }
 
 button,
@@ -298,7 +301,7 @@ i:hover {
   }
 
   .hero {
-    height: 780px;
+    height: 85vh;
   }
 
   h6 {
